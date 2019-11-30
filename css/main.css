@@ -129,9 +129,10 @@ body > section,
 }
 
 #preloader > img {
-  left: 50%;
-  position: absolute;
-  top: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 
