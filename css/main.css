@@ -125,12 +125,12 @@ body > section,
   height: 100%;
   position: fixed;
   width: 100%;
-  z-index: 1100;
+  z-index: 500;
 }
 
 #preloader > img {
   left: 47%;
-  position: absolute;
+  position: relative;
   top: 48%;
 }
 
