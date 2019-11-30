@@ -121,22 +121,21 @@ body > section,
 }
 
 #preloader {
-  background-color: #fff;
-  height: 100%;
-  position: fixed;
-  width: 100%;
-  z-index: 600;
+align-items: center;
+  background:white;
   
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: opacity 0.3s linear;
+  width: 100%;
+  z-index: 9999;
 }
 
 
-#preloader > img {
-    position: absolute;
-     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
 
 
 /*=========================================
