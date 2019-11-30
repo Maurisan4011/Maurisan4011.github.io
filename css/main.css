@@ -126,10 +126,13 @@ body > section,
   position: fixed;
   width: 100%;
   z-index: 600;
+  
 }
 
+
 #preloader > img {
-    display: block;
+    position: absolute;
+     display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
