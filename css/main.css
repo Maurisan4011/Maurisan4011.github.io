@@ -125,7 +125,7 @@ body > section,
   height: 100%;
   position: fixed;
   width: 100%;
-  z-index: 1100;
+  z-index: 600;
 }
 
 #preloader > img {
