@@ -123,12 +123,11 @@ body > section,
 #preloader {
 align-items: center;
   background:white;
-  
-  display: flex;
+   display: flex;
   height: 100vh;
   justify-content: center;
   left: 0;
-  position: fixed;
+  position: absolute;
   top: 0;
   transition: opacity 0.3s linear;
   width: 100%;
